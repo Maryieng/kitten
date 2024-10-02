@@ -1,5 +1,4 @@
 from django.urls import path
-from rest_framework.routers import DefaultRouter
 
 from kitten.views import (KittenCreateView, KittenListView, KittenRetrieveView, KittenUpdateView, KittenDestroyView,
                           BreedListView, RatingCreateView, RatingListView, )
